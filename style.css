@@ -1,4 +1,4 @@
-section{
+.flexible-container{
     display:flex;
 }
 body{
@@ -30,3 +30,41 @@ h1{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big{
+    padding-bottom: 2px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    padding-left: 10px;
+    width: 40%;
+    box-shadow: 10px 10px 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+}
+.experience-item p{
+    padding-right: 10px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+   border-image: linear-gradient(orangered, tomato);
+   border-image-slice: 1;
+}
+#full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+    
+    
+     
+
+
