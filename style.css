@@ -1,0 +1,32 @@
+section{
+    display:flex;
+}
+body{
+    font-family: 'Festive', cursive;
+    margin: 0ch;
+}
+h1{
+    width:50%;
+}
+.half-width{
+    width:40%;
+}
+.half-width image{
+    width:80%;
+}
+.orange-color{
+    color: cornflowerblue;
+}
+.link-button{
+    text-decoration:none;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 5px;
+    width:10px;
+    color: peachpuff;
+}
+.top-banner{
+    margin-left: 10px;
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
